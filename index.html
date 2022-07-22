@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+
+    <!------ Google Fonts------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <!--- Font Awesome--->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--- Stylesheets --->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+
+    <title>Adetoye | Front-End Web Developer</title>
+</head>
+<body>
+    <header class="header-element">
+        <div class="header">
+            <div class="container nav-container">
+                <div class="logo">
+                    <h2>Adetoye</h2>
+                </div>
+                <nav class="nav">
+                    <ul class="primary-navigation" data-visible="false" id="primary-navigation">
+                        <div onclick="toggleNav()" class="nav-icon cancel-btn">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <li class="nav-link"><a href="#about-me">About Me</a></li>
+                        <li class="nav-link"><a href="#contact-me">Get In Touch</a></li>
+                    </ul>
+                    <div aria-controls="primary-navigation" onclick="toggleNav()" class="nav-icon menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-image-container">
+            <img class="hero-image" src="img/hero-img.png" alt="">
+        </div>
+        <div class="hero-content-container">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm Adetoye! 👋🏽</h1>
+                    <div class="typewriter-text-container">
+                        <h2 class="typewriter-text"></h2>
+                    </div>
+                </div>
+                <div class="hero-cta-container">
+                    <a href="#contact-me" class="cta hire-me">Hire Me</a>
+                    <a href="#" class="cta view-resume">View Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section about-me" id="about-me">
+        <div class="container">
+            <div class="section-title">
+                <h1>About Me</h1>
+            </div>
+            <div class="about-me-text">
+                <p>My name is Adetoye, and I'm a front-end web developer. 
+                    I specialize in front-end website development utilizing HTML, CSS, and JavaScript. 
+                    I'm also well-versed with PHP and the React JS framework.
+                </p>
+                <p>I design websites for a variety of purposes, including landing pages, 
+                    e-commerce storefronts, blogs, portfolios, and commercial websites, and I optimize them for the best possible user experience.
+                </p>
+                <p>Problem solving is my favorite aspect of my job. 
+                    I enjoy working with businesses and assisting them in determining what type of website is ideal for their needs.
+                </p>
+                <p>Before switching to a professional career, I started programming as a hobby, 
+                    creating a variety of fun projects, this makes it very easy for me to solve challenging tasks because I always find an interesting way to break it down into smaller tasks while having fun.
+                </p>
+                <p>I'm also interested in sales and marketing, and I enjoy advising businesses and startups on how to best increase revenue through their websites. 
+                    My goal is to assist as many businesses as possible in getting the most out of their websites in terms of generating traffic, increasing revenue, and providing the best user experiences. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section my-skills">
+        <div class="container">
+            <div class="section-title">
+                <h1>My Skills</h1>
+            </div>
+            <div class="skills-icon-container">
+                <div class="skills-icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="skills-icon">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="skills-icon">
+                    <i class="fa-brands fa-js-square"></i>
+                </div>
+                <div class="skills-icon">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+                <div class="skills-icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="skills-icon">
+                    <i class="fa-brands fa-git-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section recent-projects">
+        <div class="container">
+            <div class="section-title">
+                <h1>Recent Projects</h1>
+            </div>
+            <div class="projects-card-container">
+                <div class="projects-card">
+                    <div>
+                        <img class="card-image" src="img/proj-1.jpg" alt="">
+                    </div>
+                    <div class="card-overlay">
+                        <div class="overlay-text">
+                            <h5 class="overlay-title">Landing Page</h5>
+                            <p>Lorem ipsum dolor sit, amet</p>
+                        </div>
+                        <div class="overlay-btn">
+                            <i class="fas fa-long-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div>
+                        <img class="card-image" src="img/proj-2.jpg" alt="">
+                    </div>
+                    <div class="card-overlay">
+                        <div class="overlay-text">
+                            <h5 class="overlay-title">Landing Page</h5>
+                            <p>Lorem ipsum dolor sit, amet</p>
+                        </div>
+                        <div class="overlay-btn">
+                            <i class="fas fa-long-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div>
+                        <img class="card-image" src="img/proj-3.jpg" alt="">
+                    </div>
+                    <div class="card-overlay">
+                        <div class="overlay-text">
+                            <h5 class="overlay-title">Landing Page</h5>
+                            <p>Lorem ipsum dolor sit, amet</p>
+                        </div>
+                        <div class="overlay-btn">
+                            <i class="fas fa-long-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section socials">
+        <div class="container">
+            <div class="section-title">
+                <h1>Let's Connect</h1>
+            </div>
+            <div class="social-icons-container">
+                <div class="social-icons">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="social-icons">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="social-icons">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section contact-me" id="contact-me">
+        <div class="container">
+            <div class="section-title">
+                <h1>Get In Touch</h1>
+            </div>
+            <div class="contact-form-container">
+                <form action="" class="contact-form"> 
+                    <input class="form-inputs" type="text" name="name" id="name" placeholder="Enter Your Name">
+                    <input class="form-inputs" type="email" name="email" id="email" placeholder="Email Address">
+                    <div class="form-subjects-container">
+                        <div class="form-subject">
+                            <input type="radio" name="radio" id="work" value="work" class="radio-btn">
+                            <label for="work" class="subject-text">Work</label>
+                        </div>
+                        <div class="form-subject">
+                            <input type="radio" name="radio" id="collab" value="collaboration" class="radio-btn">
+                            <label for="collab" class="subject-text">Collaboration</label>
+                        </div>
+                        <div class="form-subject">
+                            <input type="radio" name="radio" id="chat" value="chat" class="radio-btn">
+                            <label for="chat" class="subject-text">Chat</label>
+                        </div>
+                        <div class="form-subject">
+                            <input class="form-inputs" type="text" name="other" id="other" placeholder="Other">
+                        </div>
+                    </div>
+                    <textarea class="form-inputs" name="textarea" id="" cols="25" rows="9"></textarea>
+                    <button class="submit-btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-text">Thanks for Scrolling</p>
+            <div class="go-to-top-btn" id="go-to-top">
+                <i class="fas fa-long-arrow-up"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        let typed = new Typed(".typewriter-text", {
+            strings: ["Front-End Developer", "Builds awesome websites", "Loves to code"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+</body>
+</html>
