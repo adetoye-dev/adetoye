@@ -194,6 +194,9 @@ p  {
 .skills-icon i {
     font-size: 3rem;
 }
+.social-icon-link:visited {
+    color: var(--primary-color);
+}
 
 
 .projects-card-container {
