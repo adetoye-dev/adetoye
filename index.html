@@ -205,7 +205,7 @@
                 <h1>Get In Touch</h1>
             </div>
             <div class="contact-form-container">
-                <form action="" class="contact-form"> 
+                <form class="contact-form" onsubmit="submitForm(event)"> 
                     <input class="form-inputs" type="text" name="name" id="name" placeholder="Enter Your Name">
                     <input class="form-inputs" type="email" name="email" id="email" placeholder="Email Address">
                     <div class="form-subjects-container">
@@ -225,7 +225,7 @@
                             <input class="form-inputs" type="text" name="other" id="other" placeholder="Other">
                         </div>
                     </div>
-                    <textarea class="form-inputs" name="textarea" id="" cols="25" rows="9"></textarea>
+                    <textarea class="form-inputs" name="textarea" id="message" cols="25" rows="9"></textarea>
                     <button class="submit-btn" type="submit">Send Message</button>
                 </form>
             </div>
@@ -252,5 +252,6 @@
             loop: true
         });
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
