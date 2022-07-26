@@ -394,6 +394,9 @@ p  {
     .contact-form {
         width: 80%;
     }
+    .hero-image {
+        clip-path: circle(250px at center);
+    }
 }
 
 @media (min-width: 800px) {
