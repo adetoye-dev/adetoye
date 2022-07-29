@@ -208,7 +208,7 @@
                 <h1>Get In Touch</h1>
             </div>
             <div class="contact-form-container">
-                <form class="contact-form" onsubmit="submitForm(event)"> 
+                <form class="contact-form" id="contact-form" onsubmit="submitForm(event)"> 
                     <input class="form-inputs" type="text" name="name" id="name" placeholder="Enter Your Name">
                     <input class="form-inputs" type="email" name="email" id="email" placeholder="Email Address">
                     <div class="form-subjects-container">
@@ -234,6 +234,13 @@
             </div>
         </div>
     </section>
+    
+    <dialog class="modal">
+        <div class="close-modal-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <p class="modal-text">Form Submission Failed. <br>Please try again!! </p>
+    </dialog>
 
     <footer class="footer">
         <div class="container footer-container">
@@ -246,6 +253,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     
     <script>
         let typed = new Typed(".typewriter-text", {

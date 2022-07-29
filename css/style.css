@@ -332,6 +332,33 @@ p  {
 }
 
 
+.modal {
+    margin: auto;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.modal::backdrop {
+    background: rgba(03, 53, 97, .5);
+}
+.close-modal-btn {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+    display: flex;
+}
+.close-modal-btn i {
+    margin: auto;
+    font-size: 1.5rem;
+}
+
 .footer {
     margin-top: 3rem;
     background-color: var(--black);

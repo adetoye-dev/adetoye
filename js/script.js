@@ -28,8 +28,6 @@ function submitForm(event) {
     
     event.preventDefault();
 
-    const form = document.querySelector(".contact-form");
-
     const name = document.querySelector("#name").value;
     const email = document.querySelector("#email").value;
 
@@ -52,6 +50,31 @@ function submitForm(event) {
         subject = other;
     }
 
-    window.open("mailto: adetoyeadewoye@gmail.com?subject=subject&body=body");
-    console.log(name, email, subject, message);
+    $.ajax({
+        type: "post",
+        cache: false,
+        url: "https://formspree.io/f/xpzkjkab",
+        data: {
+          name: name,
+          email: email,
+          subject: subject,
+          message: message
+        },
+        
+        complete: function()
+        {
+            modal.showModal();
+            modalText.innerHTML = "Form Submitted Successfully <br> Thanks for your response!";
+            $("#contact-form").trigger('reset');
+        }
+    })
 }
+
+
+const modal = document.querySelector(".modal");
+const modalText = document.querySelector(".modal-text");
+const closeModal = document.querySelector(".close-modal-btn");
+
+closeModal.addEventListener('click', () => {
+    modal.close();
+})
