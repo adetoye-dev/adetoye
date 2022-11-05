@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #01588e;
+  --black: #00182d;
+  --secondary-color: #fcb900;
+  --accent-color: #23b7f1;
+  --white: #fefefe;
+  --gap: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}

@@ -1,0 +1,68 @@
+.container {
+  position: relative;
+  width: min(85%, 1349px);
+  margin: 0 auto;
+}
+.section {
+  padding: 4.5rem 0 1rem 0;
+}
+
+.section-title {
+  margin-bottom: 1em;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.section-title h1 {
+  color: var(--accent-color);
+}
+.section-title::after {
+  content: "";
+  width: 65%;
+  height: 2px;
+  background: var(--secondary-color);
+}
+
+.skills-icon-container {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+.contributions-card-container,
+.projects-card-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.social-icons-container {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+  .social-icons-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) {
+  .contributions-card-container,
+  .projects-card-container {
+    flex-direction: row;
+  }
+
+  .social-icons-container {
+    width: 50%;
+  }
+}
