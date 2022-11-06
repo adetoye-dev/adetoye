@@ -5,7 +5,6 @@ import AboutMe from "./components/AboutMe";
 import SkillCard from "./components/SkillCard";
 import SocialIcon from "./components/SocialIcon";
 import ContactForm from "./components/ContactForm";
-import Modal from "./components/Modal";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 
@@ -99,7 +98,6 @@ function App() {
         </div>
         <ContactForm />
       </section>
-      <Modal />
       <Footer />
     </>
   );

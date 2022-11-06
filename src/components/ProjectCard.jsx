@@ -11,7 +11,7 @@ const ProjectCard = (props) => {
       <div className="project-card-img">
         <img src={`/img/${props.img}`} alt="project-thumbnail" />
       </div>
-      {renderTags != "" && <div className="project-tags">{renderTags}</div>}
+      {renderTags !== "" && <div className="project-tags">{renderTags}</div>}
       <div className="project-card-text">
         <h4 className="project-card-title">{props.title}</h4>
         <p>{props.desc}</p>
