@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import SkillCard from "./components/SkillCard";
-import ContributionCard from "./components/ContributionCard";
 import SocialIcon from "./components/SocialIcon";
 import ContactForm from "./components/ContactForm";
 import Modal from "./components/Modal";
@@ -43,6 +42,7 @@ function App() {
             desc="Business Service Page"
             liveSite="https://amaduke.com.ng/energy"
             github="https://amaduke.com.ng/energy"
+            tags={["html", "css"]}
           />
           <ProjectCard
             img="arvotrade.com.jpeg"
@@ -50,6 +50,7 @@ function App() {
             desc="Business Service Page"
             liveSite="https://amaduke.com.ng/energy"
             github="https://amaduke.com.ng/energy"
+            tags={["html", "css", "react"]}
           />
           <ProjectCard
             img="amaduke.com.ng.jpeg"
@@ -57,6 +58,7 @@ function App() {
             desc="Business Service Page"
             liveSite="https://amaduke.com.ng/energy"
             github="https://amaduke.com.ng/energy"
+            tags={["javascript", "react"]}
           />
           <ProjectCard
             img="amaduke.com.ng.jpeg"
@@ -64,31 +66,7 @@ function App() {
             desc="Business Service Page"
             liveSite="https://amaduke.com.ng/energy"
             github="https://amaduke.com.ng/energy"
-          />
-        </div>
-      </section>
-      <section className="section contributions container">
-        <div className="section-title">
-          <h1>Contributions</h1>
-        </div>
-        <div className="contributions-card-container">
-          <ContributionCard
-            img="amaduke.com.ng.jpeg"
-            title="Amaduke Energy"
-            desc="Business Service Page"
-            liveSite="https://amaduke.com.ng/energy"
-          />
-          <ContributionCard
-            img="arvotrade.com.jpeg"
-            title="Arvotrade"
-            desc="Landing (coming soon) page"
-            liveSite="https://arvotrade.com"
-          />
-          <ContributionCard
-            img="affiliatetraining.arvotrade.com.jpeg"
-            title="Arvotrade Training"
-            desc="Video Training Site"
-            liveSite="https://affiliatetraining.arvotrade.com"
+            tags={["html", "css", "javascript"]}
           />
         </div>
       </section>
