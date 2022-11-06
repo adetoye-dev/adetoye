@@ -37,28 +37,28 @@ function App() {
         </div>
         <div className="projects-card-container">
           <ProjectCard
-            img="amaduke.com.ng.jpeg"
-            title="Amaduke Energy"
-            desc="Business Service Page"
-            liveSite="https://amaduke.com.ng/energy"
-            github="https://amaduke.com.ng/energy"
-            tags={["html", "css"]}
+            img="country-search-app.jpeg"
+            title="country Search App"
+            desc="Search and learn about countries in the world"
+            liveSite="https://world-countries-search.vercel.app/"
+            github="https://github.com/adetoye-dev/rest-countries-api"
+            tags={["react", "api"]}
           />
           <ProjectCard
-            img="arvotrade.com.jpeg"
-            title="jldjkjfkdjkjdsklk"
-            desc="Business Service Page"
-            liveSite="https://amaduke.com.ng/energy"
-            github="https://amaduke.com.ng/energy"
-            tags={["html", "css", "react"]}
+            img="space-tourism-site.jpeg"
+            title="Space Tourism Site"
+            desc="Multi-page website"
+            liveSite="https://space-tourism-site-self.vercel.app/"
+            github="https://github.com/adetoye-dev/space-tourism-site"
+            tags={["react"]}
           />
           <ProjectCard
-            img="amaduke.com.ng.jpeg"
-            title="Amaduke Energy"
-            desc="Business Service Page"
-            liveSite="https://amaduke.com.ng/energy"
-            github="https://amaduke.com.ng/energy"
-            tags={["javascript", "react"]}
+            img="ip-address-tracker.jpeg"
+            title="Ip Address Tracker"
+            desc="Track user location with ip address search"
+            liveSite="https://ip-address-tracker-1y6t.vercel.app/"
+            github="https://github.com/adetoye-dev/ip-address-tracker"
+            tags={["react", "api"]}
           />
           <ProjectCard
             img="amaduke.com.ng.jpeg"
