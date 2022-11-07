@@ -14,8 +14,7 @@
   cursor: pointer;
 }
 .social-icon:hover {
-  background-color: var(--primary-color);
-  color: var(--white);
+  transform: scale(1.15);
 }
 .social-icon i {
   font-size: 1.7rem;
