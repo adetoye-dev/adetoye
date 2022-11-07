@@ -25,9 +25,9 @@ function App() {
           <SkillCard icon="fa-brands fa-css3-alt" name="CSS" />
           <SkillCard icon="fa-brands fa-js-square" name="JavaScript" />
           <SkillCard icon="fa-brands fa-react" name="React" />
-          <SkillCard icon="fa-brands fa-php" name="php" />
-          <SkillCard icon="fa-brands fa-git-alt" name="git" />
-          <SkillCard icon="fa-brands fa-github" name="GitHub" />
+          <SkillCard icon="fa-brands fa-git-alt" name="Git" />
+          <SkillCard icon="devicon-tailwindcss-plain" name="Tailwind" />
+          <SkillCard icon="devicon-figma-plain" name="Figma" />
         </div>
       </section>
       <section className="section recent-projects container">
