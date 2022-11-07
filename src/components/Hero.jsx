@@ -18,6 +18,7 @@ const Hero = () => {
                 fontWeight: 500,
                 fontSize: "1.5em",
               }}
+              multiTextLoop={true}
               startDelay={2000}
               cursorColor="#23b7f1"
               multiText={[
@@ -26,7 +27,7 @@ const Hero = () => {
                 "Loves to code",
               ]}
               multiTextDelay={1000}
-              typeSpeed={30}
+              typeSpeed={70}
             />
           </div>
           <div className="hero-cta-container">
