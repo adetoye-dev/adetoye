@@ -37,11 +37,11 @@ function App() {
         <div className="projects-card-container">
           <ProjectCard
             img="country-search-app.jpeg"
-            title="country Search App"
+            title="Country Search App"
             desc="Search and learn about countries in the world"
             liveSite="https://world-countries-search.vercel.app/"
             github="https://github.com/adetoye-dev/rest-countries-api"
-            tags={["react", "api"]}
+            tags={["react", "css", "api"]}
           />
           <ProjectCard
             img="space-tourism-site.jpeg"
@@ -49,7 +49,7 @@ function App() {
             desc="Multi-page website"
             liveSite="https://space-tourism-site-self.vercel.app/"
             github="https://github.com/adetoye-dev/space-tourism-site"
-            tags={["react"]}
+            tags={["react", "css"]}
           />
           <ProjectCard
             img="ip-address-tracker.jpeg"
@@ -57,21 +57,29 @@ function App() {
             desc="Track user location with ip address search"
             liveSite="https://ip-address-tracker-1y6t.vercel.app/"
             github="https://github.com/adetoye-dev/ip-address-tracker"
-            tags={["react", "api"]}
+            tags={["react", "css", "api"]}
           />
           <ProjectCard
-            img="amaduke.com.ng.jpeg"
-            title="Amaduke Energy"
-            desc="Business Service Page"
-            liveSite="https://amaduke.com.ng/energy"
-            github="https://amaduke.com.ng/energy"
-            tags={["html", "css", "javascript"]}
+            img="tenzie-game.jpeg"
+            title="Tenzie Game"
+            desc="Tenzie dice game"
+            liveSite="https://tenzie-alpha.vercel.app/"
+            github="https://github.com/adetoye-dev/tenzie"
+            tags={["react", "css"]}
+          />
+          <ProjectCard
+            img="shortly.jpeg"
+            title="URL Shortener App"
+            desc="URL shortener app"
+            liveSite="https://shortly-umber-one.vercel.app/"
+            github="https://github.com/adetoye-dev/shortly"
+            tags={["html", "css", "javascript", "api"]}
           />
         </div>
         <div className="view-more">
-          <button className="view-more-btn">
+          <a href="https://github.com/adetoye-dev" className="view-more-btn">
             <i className="fab fa-github"></i> View More
-          </button>
+          </a>
         </div>
       </section>
       <section className="section socials container">

@@ -35,8 +35,9 @@
 .contributions-card-container,
 .projects-card-container {
   margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 300px));
+  justify-content: center;
   gap: var(--gap);
 }
 
@@ -83,11 +84,6 @@
 }
 
 @media (min-width: 800px) {
-  .contributions-card-container,
-  .projects-card-container {
-    flex-direction: row;
-  }
-
   .social-icons-container {
     width: 50%;
   }

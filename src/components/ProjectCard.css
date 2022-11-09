@@ -1,9 +1,7 @@
 .project-card {
   background-color: var(--white);
-  flex: 1;
   height: auto;
   margin: 0 auto;
-  max-width: 280px;
   border-radius: 0.5rem;
   box-shadow: 3px 3px 7px #cbe3ec, -3px -3px 7px #cbe3ec;
 }
