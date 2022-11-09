@@ -44,6 +44,14 @@ const ContactForm = () => {
         <p className="modal-text">{modalText}</p>
       </ReactModal>
       <div className="contact-form-container">
+        <div className="contact-details-container">
+          <div className="contact-detail">
+            <span>Email: </span>adetoyeadewoye@gmail.com
+          </div>
+          <div className="contact-detail">
+            <span>TimeZone: </span>GMT +1 (WAT)
+          </div>
+        </div>
         <form
           className="contact-form"
           id="contact-form"
