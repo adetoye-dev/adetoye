@@ -68,6 +68,11 @@ function App() {
             tags={["html", "css", "javascript"]}
           />
         </div>
+        <div className="view-more">
+          <button className="view-more-btn">
+            <i className="fab fa-github"></i> View More
+          </button>
+        </div>
       </section>
       <section className="section socials container">
         <div className="section-title">

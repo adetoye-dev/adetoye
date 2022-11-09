@@ -40,6 +40,32 @@
   gap: var(--gap);
 }
 
+.view-more {
+  display: flex;
+}
+.view-more-btn {
+  padding: 0.5rem 1.2rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-block-start: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+.view-more-btn:hover {
+  background-color: var(--accent-color);
+}
+
+.view-more-btn > i {
+  font-size: 1.2rem;
+}
+
 .social-icons-container {
   margin-top: 1rem;
   width: 100%;
