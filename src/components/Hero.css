@@ -11,6 +11,7 @@
   height: 100%;
 }
 .hero-image {
+  display: none;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -32,9 +33,15 @@
   margin-bottom: 0.15em;
 }
 
+.hero-desc {
+  margin-block: 2.5rem;
+  font-size: 1.4rem;
+  max-width: 35rem;
+}
+
 .hero-cta-container {
   position: relative;
-  top: 9rem;
+  top: 5rem;
   width: 100%;
   display: flex;
   gap: var(--gap);
@@ -53,6 +60,7 @@
 
 @media (min-width: 600px) {
   .hero-image {
+    display: block;
     clip-path: circle(250px at center);
   }
 }

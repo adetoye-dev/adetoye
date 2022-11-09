@@ -16,10 +16,10 @@ const Hero = () => {
                 fontFamily: "inherit",
                 color: "#ffffff",
                 fontWeight: 500,
-                fontSize: "1.5em",
+                fontSize: "1.65rem",
               }}
               multiTextLoop={true}
-              startDelay={2000}
+              startDelay={1000}
               cursorColor="#23b7f1"
               multiText={[
                 "Front-End Developer",
@@ -29,6 +29,10 @@ const Hero = () => {
               multiTextDelay={1000}
               typeSpeed={70}
             />
+            <p className="hero-desc">
+              Utilizing my skills to create functional and visually appealing
+              web applications.
+            </p>
           </div>
           <div className="hero-cta-container">
             <a href="#contact-me" className="cta hire-me">
