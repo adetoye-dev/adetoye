@@ -39,7 +39,7 @@ function App() {
           <ProjectCard
             img="country-search-app.jpeg"
             title="Country Search App"
-            desc="Search and learn about countries in the world"
+            desc="A search app where users can search for and learn about the different countries in the world"
             liveSite="https://world-countries-search.vercel.app/"
             github="https://github.com/adetoye-dev/rest-countries-api"
             tags={["react", "css", "api"]}
@@ -47,7 +47,7 @@ function App() {
           <ProjectCard
             img="space-tourism-site.jpeg"
             title="Space Tourism Site"
-            desc="Multi-page website"
+            desc="A multi-page website where users can learn about different space locations and technologies"
             liveSite="https://space-tourism-site-self.vercel.app/"
             github="https://github.com/adetoye-dev/space-tourism-site"
             tags={["react", "css"]}
@@ -55,7 +55,7 @@ function App() {
           <ProjectCard
             img="ip-address-tracker.jpeg"
             title="Ip Address Tracker"
-            desc="Track user location with ip address search"
+            desc="A tracker app that displays user's location on the map with ip address search"
             liveSite="https://ip-address-tracker-1y6t.vercel.app/"
             github="https://github.com/adetoye-dev/ip-address-tracker"
             tags={["react", "css", "api"]}
@@ -63,7 +63,7 @@ function App() {
           <ProjectCard
             img="tenzie-game.jpeg"
             title="Tenzie Game"
-            desc="Tenzie dice game"
+            desc="A Tenzie dice game that tracks and stores the user's best time, using the browser's local storage"
             liveSite="https://tenzie-alpha.vercel.app/"
             github="https://github.com/adetoye-dev/tenzie"
             tags={["react", "css"]}
@@ -71,7 +71,7 @@ function App() {
           <ProjectCard
             img="shortly.jpeg"
             title="URL Shortener App"
-            desc="URL shortener app"
+            desc="A web app that allows users to enter long URLs and converts it to shorter forms using an API"
             liveSite="https://shortly-umber-one.vercel.app/"
             github="https://github.com/adetoye-dev/shortly"
             tags={["html", "css", "javascript", "api"]}
@@ -85,7 +85,7 @@ function App() {
       </section>
       <section className="section recent-projects container">
         <div className="section-title">
-          <h1>Contributions</h1>
+          <h1>Contributions (Open Source)</h1>
         </div>
         <div className="contributions-card-container">
           <ContributionCard
