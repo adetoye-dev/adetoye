@@ -24,9 +24,6 @@ const AboutMe = () => {
           learning and I aspire to work in an environment that allows me learn
           and continuously improve my skills.
         </p>
-        <p>
-          <span className="interests">Interests: </span>Cosmology, Art & Design
-        </p>
       </div>
     </div>
   );
