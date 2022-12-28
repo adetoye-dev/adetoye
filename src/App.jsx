@@ -116,9 +116,9 @@ function App() {
           </a>
         </div>
       </section>
-      <section className="section socials container">
+      <section className="section contact-me container" id="contact-me">
         <div className="section-title">
-          <h1>Let's Connect</h1>
+          <h1>Get In Touch</h1>
         </div>
         <div className="social-icons-container">
           <SocialIcon
@@ -137,11 +137,6 @@ function App() {
             icon="fab fa-linkedin-in"
             link="https://linkedin.com/in/adetoye-dev"
           />
-        </div>
-      </section>
-      <section className="section contact-me container" id="contact-me">
-        <div className="section-title">
-          <h1>Get In Touch</h1>
         </div>
         <ContactForm />
       </section>
