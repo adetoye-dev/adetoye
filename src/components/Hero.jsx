@@ -4,11 +4,8 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero-image-container">
-        <img className="hero-image" src="img/hero-img.png" alt="" />
-      </div>
-      <div className="hero-content-container">
-        <div className="container">
+      <div className="container hero-container">
+        <div className="hero-content-container">
           <div className="hero-content">
             <h1 className="hero-title">Hi, I'm Adetoye! 👋🏽</h1>
             <TypeWriterEffect
@@ -45,6 +42,9 @@ const Hero = () => {
               View Resume
             </a>
           </div>
+        </div>
+        <div className="hero-image-container">
+          <img className="hero-image" src="img/hero-img.png" alt="" />
         </div>
       </div>
     </div>
