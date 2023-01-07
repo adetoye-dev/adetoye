@@ -45,12 +45,12 @@ function App() {
             tags={["react", "css", "api"]}
           />
           <ProjectCard
-            img="space-tourism-site.jpeg"
-            title="Space Tourism Site"
-            desc="A multi-page website where users can learn about different space locations and technologies"
-            liveSite="https://space-tourism-site-self.vercel.app/"
-            github="https://github.com/adetoye-dev/space-tourism-site"
-            tags={["react", "css"]}
+            img="multi-step-form.jpeg"
+            title="Multi Step Form"
+            desc="A multi-step product purchase form with email validation using an API, and using state management to track user entries for each step."
+            liveSite="https://multi-step-form-rho.vercel.app/"
+            github="https://github.com/adetoye-dev/multi-step-form"
+            tags={["react", "tailwind", "api"]}
           />
           <ProjectCard
             img="ip-address-tracker.jpeg"
