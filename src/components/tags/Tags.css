@@ -27,6 +27,11 @@
   color: #000;
 }
 
+.tailwind {
+  background-color: #122f50;
+  color: #f4f4f4;
+}
+
 .api {
   background-color: #68a063;
   color: #fff;
