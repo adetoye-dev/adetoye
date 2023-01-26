@@ -110,11 +110,6 @@ function App() {
             liveSite="https://astro-reactive.dev/"
           />
         </div>
-        <div className="view-more">
-          <a href="https://github.com/adetoye-dev" className="view-more-btn">
-            <i className="fab fa-github"></i> View More
-          </a>
-        </div>
       </section>
       <section className="section contact-me container" id="contact-me">
         <div className="section-title">
