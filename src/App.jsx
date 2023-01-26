@@ -79,7 +79,7 @@ function App() {
         </div>
         <div className="view-more">
           <a href="https://github.com/adetoye-dev" className="view-more-btn">
-            <i className="fab fa-github"></i> View More
+            <i className="fab fa-github"></i> View More on GitHub
           </a>
         </div>
       </section>
