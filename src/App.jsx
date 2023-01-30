@@ -79,7 +79,7 @@ function App() {
         </div>
         <div className="view-more">
           <a href="https://github.com/adetoye-dev" className="view-more-btn">
-            <i className="fab fa-github"></i> View More
+            <i className="fab fa-github"></i> View More on GitHub
           </a>
         </div>
       </section>
@@ -109,11 +109,6 @@ function App() {
             github="https://github.com/ayoayco/astro-reactive-library"
             liveSite="https://astro-reactive.dev/"
           />
-        </div>
-        <div className="view-more">
-          <a href="https://github.com/adetoye-dev" className="view-more-btn">
-            <i className="fab fa-github"></i> View More
-          </a>
         </div>
       </section>
       <section className="section contact-me container" id="contact-me">
