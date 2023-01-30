@@ -1,19 +1,19 @@
 import { useState } from "react";
 import "./NavBar.css";
 
+const NavLink = ({ text, link }) => {
+  return (
+    <li className="nav-link" onClick={toggleNav}>
+      <a href={link}>{text}</a>
+    </li>
+  );
+};
+
 const NavBar = () => {
   const [dataAttributes, setDataAttributes] = useState(false);
 
   const toggleNav = () => {
     setDataAttributes((prevAttr) => !prevAttr);
-  };
-
-  const NavLink = ({ text, link }) => {
-    return (
-      <li className="nav-link" onClick={toggleNav}>
-        <a href={link}>{text}</a>
-      </li>
-    );
   };
 
   return (
