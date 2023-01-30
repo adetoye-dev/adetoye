@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./NavBar.css";
 
-const NavLink = ({ text, link }) => {
+const NavLink = ({ text, link, toggleNav }) => {
   return (
     <li className="nav-link" onClick={toggleNav}>
       <a href={link}>{text}</a>
@@ -32,8 +32,12 @@ const NavBar = () => {
               <div onClick={toggleNav} className="nav-icon cancel-btn">
                 <i className="fas fa-times"></i>
               </div>
-              <NavLink link="#about-me" text="About Me" />
-              <NavLink link="#contact-me" text="Get In Touch" />
+              <NavLink link="#about-me" text="About Me" toggleNav={toggleNav} />
+              <NavLink
+                link="#contact-me"
+                text="Get In Touch"
+                toggleNav={toggleNav}
+              />
               <a
                 href="https://drive.google.com/file/d/17jfxvOmbIVkaiT1gqwe-qQk91aLL7rkw/view?usp=sharing"
                 className="cta view-resume"
