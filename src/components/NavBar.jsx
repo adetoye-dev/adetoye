@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./NavBar.css";
+import resume from "../assets/My Resume.pdf";
 
 const NavLink = ({ text, link, toggleNav }) => {
   return (
@@ -38,10 +39,7 @@ const NavBar = () => {
                 text="Get In Touch"
                 toggleNav={toggleNav}
               />
-              <a
-                href="https://drive.google.com/file/d/17jfxvOmbIVkaiT1gqwe-qQk91aLL7rkw/view?usp=sharing"
-                className="cta view-resume"
-              >
+              <a href={resume} download={true} className="cta view-resume">
                 View Resume
               </a>
             </ul>

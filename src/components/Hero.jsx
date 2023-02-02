@@ -1,5 +1,6 @@
 import "./Hero.css";
 import TypeWriterEffect from "react-typewriter-effect";
+import resume from "../assets/My Resume.pdf"
 
 const Hero = () => {
   return (
@@ -36,7 +37,8 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/17jfxvOmbIVkaiT1gqwe-qQk91aLL7rkw/view?usp=sharing"
+              href={resume}
+              download={true}
               className="cta view-resume"
             >
               View Resume
