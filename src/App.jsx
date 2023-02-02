@@ -22,8 +22,6 @@ function App() {
           <h1>My Skills</h1>
         </div>
         <div className="skills-icon-container">
-          <SkillCard icon="fa-brands fa-html5" name="HTML" />
-          <SkillCard icon="fa-brands fa-css3-alt" name="CSS" />
           <SkillCard icon="fa-brands fa-js-square" name="JavaScript" />
           <SkillCard icon="fa-brands fa-react" name="React" />
           <SkillCard icon="fa-brands fa-git-alt" name="Git" />
