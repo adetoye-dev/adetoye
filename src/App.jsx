@@ -59,12 +59,12 @@ function App() {
             tags={["react", "css", "api"]}
           />
           <ProjectCard
-            img="tenzie-game.jpeg"
-            title="Tenzie Game"
-            desc="A Tenzie dice game that tracks and stores the user's best time, using the browser's local storage"
-            liveSite="https://tenzie-alpha.vercel.app/"
-            github="https://github.com/adetoye-dev/tenzie"
-            tags={["react", "css"]}
+            img="quizzical.png"
+            title="Quizzical"
+            desc="A Quiz App that fetches and renders quiz questions from an API, and also keeps track of the user's selection for each question and checks if it's correct or not."
+            liveSite="https://quizzical-nqu9.vercel.app/"
+            github="https://github.com/adetoye-dev/quizzical"
+            tags={["react", "css", "api"]}
           />
           <ProjectCard
             img="shortly.jpeg"
