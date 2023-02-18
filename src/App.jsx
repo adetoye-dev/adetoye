@@ -37,7 +37,7 @@ function App() {
           <ProjectCard
             img="country-search-app.jpeg"
             title="Country Search App"
-            desc="A search app where users can search for and learn about the different countries in the world"
+            desc="A search app where users can search for and learn about the different countries in the world using data from an API."
             liveSite="https://world-countries-search.vercel.app/"
             github="https://github.com/adetoye-dev/rest-countries-api"
             tags={["react", "css", "api"]}
