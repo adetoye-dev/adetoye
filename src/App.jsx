@@ -22,12 +22,12 @@ function App() {
           <h1>My Skills</h1>
         </div>
         <div className="skills-icon-container">
-          <SkillCard icon="fa-brands fa-js-square" name="JavaScript" />
           <SkillCard icon="fa-brands fa-react" name="React" />
-          <SkillCard icon="fa-brands fa-git-alt" name="Git" />
+          <SkillCard icon="fa-brands fa-js-square" name="JavaScript" />
           <SkillCard icon="devicon-tailwindcss-plain" name="Tailwind" />
-          <SkillCard icon="devicon-figma-plain" name="Figma" />
           <SkillCard icon="devicon-nodejs-plain" name="NodeJs" />
+          <SkillCard icon="fa-brands fa-git-alt" name="Git" />
+          <SkillCard icon="devicon-figma-plain" name="Figma" />
         </div>
       </section>
       <section className="section recent-projects container">
