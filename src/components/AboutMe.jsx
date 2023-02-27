@@ -8,7 +8,7 @@ const AboutMe = () => {
       </div>
       <div className="about-me-text">
         <p>
-         I am an experienced web developer who specializes in creating high-quality front-end applications with a deep understanding of Tailwind CSS and the ReactJS framework. I'm very particular about creating products that offer unparalleled user experiences, as I strive to incorporate creative solutions to challenging tasks.
+          I am a creative web developer who specializes in creating high-quality front-end applications with a deep understanding of the ReactJS framework. I'm very particular about creating products that offer unparalleled user experiences, as I strive to incorporate creative solutions to challenging tasks.
         </p>
         <p>
           With a passion for programming, I started as a hobbyist and have since gained valuable experience in problem-solving and creative coding. I'm passionate about learning, and I'm always striving to stay ahead of the curve by honing my skills and staying up-to-date with the latest technologies.
