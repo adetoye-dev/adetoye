@@ -3,11 +3,9 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import SkillCard from "./components/SkillCard";
-import SocialIcon from "./components/SocialIcon";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
-import ContributionCard from "./components/ContributionCard";
 
 function App() {
   return (
@@ -85,24 +83,6 @@ function App() {
       <section className="section contact-me container" id="contact-me">
         <div className="section-title">
           <h1>Get In Touch</h1>
-        </div>
-        <div className="social-icons-container">
-          <SocialIcon
-            icon="fab fa-github"
-            link="https://github.com/adetoye-dev"
-          />
-          <SocialIcon
-            icon="fab fa-instagram"
-            link="https://instagram.com/adetoye_dev"
-          />
-          <SocialIcon
-            icon="fab fa-twitter"
-            link="https://twitter.com/adetoye_dev"
-          />
-          <SocialIcon
-            icon="fab fa-linkedin-in"
-            link="https://linkedin.com/in/adetoye-dev"
-          />
         </div>
         <ContactForm />
       </section>

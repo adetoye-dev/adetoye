@@ -1,10 +1,32 @@
 import "./Footer.css";
+import SocialIcon from "./SocialIcon";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer-container">
-        <p className="footer-text">Thanks for Scrolling</p>
+        <div className="attribution-and-social-links">
+          <p className="footer-text">Copyright &copy; 2023, Adetoye</p>
+          <div className="social-icons-container">
+            <SocialIcon
+              icon="fab fa-github"
+              link="https://github.com/adetoye-dev"
+            />
+            <SocialIcon
+              icon="fab fa-instagram"
+              link="https://instagram.com/adetoye_dev"
+            />
+            <SocialIcon
+              icon="fab fa-twitter"
+              link="https://twitter.com/adetoye_dev"
+            />
+            <SocialIcon
+              icon="fab fa-linkedin-in"
+              link="https://linkedin.com/in/adetoye-dev"
+            />
+          </div>
+        </div>
+
         <div
           className="go-to-top-btn"
           id="go-to-top"

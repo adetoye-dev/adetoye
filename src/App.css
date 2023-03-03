@@ -67,16 +67,6 @@
   font-size: 1.2rem;
 }
 
-.social-icons-container {
-  margin-block: 1rem;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  gap: var(--gap);
-  flex-wrap: wrap;
-}
-
 @media (min-width: 600px) {
   .social-icons-container {
     width: 80%;

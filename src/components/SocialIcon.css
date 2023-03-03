@@ -3,19 +3,18 @@
 }
 
 .social-icon {
-  width: 3rem;
+  width: 2rem;
   aspect-ratio: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 0.4rem;
   background-color: var(--white);
-  box-shadow: 3px 3px 7px #cbe3ec, -3px -3px 7px #cbe3ec;
   cursor: pointer;
 }
 .social-icon:hover {
   transform: scale(1.15);
 }
 .social-icon i {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
