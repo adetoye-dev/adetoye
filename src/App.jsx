@@ -82,34 +82,6 @@ function App() {
           </a>
         </div>
       </section>
-      <section className="section recent-projects container">
-        <div className="section-title">
-          <h1>Contributions (Open Source)</h1>
-        </div>
-        <div className="contributions-card-container">
-          <ContributionCard
-            img="code-magic.jpeg"
-            title="Code Magic"
-            desc="A website to help you get short css code you can use in your applications with html and css"
-            github="https://github.com/Dun-sin/Code-Magic"
-            liveSite="https://code-magic.vercel.app/"
-          />
-          <ContributionCard
-            img="cardit.jpeg"
-            title="Cardit"
-            desc="Cardit is a web-app where you can create your own GitHub profile card."
-            github="https://github.com/pushkaraj2007/Cardit"
-            liveSite="https://cardit.vercel.app/"
-          />
-          <ContributionCard
-            img="astro-reactive.jpeg"
-            title="Astro Reactive Library"
-            desc="Lets your data build your UI with native Astro components and architecture"
-            github="https://github.com/ayoayco/astro-reactive-library"
-            liveSite="https://astro-reactive.dev/"
-          />
-        </div>
-      </section>
       <section className="section contact-me container" id="contact-me">
         <div className="section-title">
           <h1>Get In Touch</h1>
