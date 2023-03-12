@@ -34,20 +34,27 @@ function App() {
         </div>
         <div className="projects-card-container">
           <ProjectCard
+
+            img="multi-step-form.jpeg"
+
+            title="Plan Subscription App"
+
+            desc="This is a simple service subscription app with email validation using an API and live payment integration"
+
+            liveSite="https://plan-subscription.vercel.app/"
+
+            github="https://github.com/adetoye-dev/plan-subscription-app"
+
+            tags={["react", "tailwind", "api"]}
+
+          />
+          <ProjectCard
             img="country-search-app.jpeg"
             title="Country Search App"
             desc="A search app where users can search for and learn about the different countries in the world using data from an API."
             liveSite="https://world-countries-search.vercel.app/"
             github="https://github.com/adetoye-dev/rest-countries-api"
             tags={["react", "css", "api"]}
-          />
-          <ProjectCard
-            img="multi-step-form.jpeg"
-            title="Multi Step Form"
-            desc="A multi-step product purchase form with email validation using an API, and using state management to track user entries for each step."
-            liveSite="https://multi-step-form-rho.vercel.app/"
-            github="https://github.com/adetoye-dev/multi-step-form"
-            tags={["react", "tailwind", "api"]}
           />
           <ProjectCard
             img="ip-address-tracker.jpeg"
