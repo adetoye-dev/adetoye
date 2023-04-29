@@ -34,19 +34,20 @@ function App() {
         </div>
         <div className="projects-card-container">
           <ProjectCard
-
+            img="what2wear.png"
+            title="What2Wear App (Beta Testing)"
+            desc="This is a weather app that recommends you what to wear based on the current weather in your location or a location of your choice."
+            liveSite="https://what2wear.vercel.app/"
+            github="https://github.com/adetoye-dev/weathrr-app"
+            tags={["react", "node", "express", "mysql"]}
+          />
+          <ProjectCard
             img="multi-step-form.jpeg"
-
             title="Plan Subscription App"
-
             desc="This is a simple service subscription app with email validation using an API and live payment integration"
-
             liveSite="https://plan-subscription.vercel.app/"
-
             github="https://github.com/adetoye-dev/plan-subscription-app"
-
             tags={["react", "tailwind", "api"]}
-
           />
           <ProjectCard
             img="country-search-app.jpeg"
