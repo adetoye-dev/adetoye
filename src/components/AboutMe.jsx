@@ -8,16 +8,32 @@ const AboutMe = () => {
       </div>
       <div className="about-me-text">
         <p>
-          I'm a creative front-end developer focused on creating functional and reusable web components using the ReactJs framework, as well as developing and integrating REST APIs for real-time data fetching and rendering to the user.
+          I'm a full-stack developer, with a soft spot for the front end. In
+          simple terms, I transform business problems into neat code solutions,
+          one line at a time. Over the past three years, I've been putting this
+          into practice, working with all kinds of remote teams.
         </p>
+
         <p>
-          I'm an active team player, and I always do my best to engage the team with my work progress at every stage of development. 
+          My toolkit includes but is not limited to, React, Typescript, NodeJs,
+          ExpressJs, MySQL REST APIs, Nextjs, JavaScript, and MongoDB. I love
+          expanding my knowledge and skill set by learning about new
+          technologies as they come along.
         </p>
+
         <p>
-          The most exciting project I worked on was a component builder app, which I built at Chingu alongside other developers on my team. This web app allows users to drag and drop essential web components to the page and generates ready-to-use HTML code, which enables users with little to no coding knowledge to create simple, static websites. 
+          I spend most of my free time on volunteer work and open-source
+          projects, expanding my knowledge base and fueling my passion for
+          software solutions.
         </p>
+
         <p>
-        I'm passionate about open-source projects and contribute to open-source projects in my spare time.
+          Feel like we could create something amazing together? Please feel free
+          to{" "}
+          <a className="about-cta" href="#contact">
+            reach out
+          </a>{" "}
+          for a chat. I look forward to speaking with you! 😁
         </p>
       </div>
     </div>

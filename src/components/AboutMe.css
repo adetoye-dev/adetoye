@@ -1,4 +1,9 @@
-.interests {
-  font-size: larger;
+.about-cta {
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about-cta:hover {
   font-weight: 600;
 }
