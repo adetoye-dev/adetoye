@@ -1,6 +1,6 @@
 import "./Hero.css";
 import TypeWriterEffect from "react-typewriter-effect";
-import resume from "../assets/My Resume.pdf"
+import resume from "../assets/My Resume.pdf";
 
 const Hero = () => {
   return (
@@ -28,19 +28,14 @@ const Hero = () => {
               typeSpeed={70}
             />
             <p className="hero-desc">
-              Utilizing my skills to create functional and visually appealing
-              web applications.
+              Turning Code into Business Solutions, One Line at a Time.
             </p>
           </div>
           <div className="hero-cta-container">
             <a href="#contact-me" className="cta hire-me">
               Contact Me
             </a>
-            <a
-              href={resume}
-              download={true}
-              className="cta view-resume"
-            >
+            <a href={resume} download={true} className="cta view-resume">
               View Resume
             </a>
           </div>
