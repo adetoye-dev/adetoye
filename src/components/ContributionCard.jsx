@@ -1,4 +1,4 @@
-import "./ContributionCard.css";
+import "../styles/ContributionCard.css";
 
 const ContributionCard = (props) => {
   return (

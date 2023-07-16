@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./NavBar.css";
+import "../styles/NavBar.css";
 import resume from "../assets/My Resume.pdf";
 
 const NavLink = ({ text, link, toggleNav }) => {

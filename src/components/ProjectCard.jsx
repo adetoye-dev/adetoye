@@ -1,4 +1,4 @@
-import "./ProjectCard.css";
+import "../styles/ProjectCard.css";
 import Tag from "./tags/Tags";
 
 const ProjectCard = (props) => {

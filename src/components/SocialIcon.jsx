@@ -1,4 +1,4 @@
-import "./SocialIcon.css";
+import "../styles/SocialIcon.css";
 
 const SocialIcon = (props) => {
   return (

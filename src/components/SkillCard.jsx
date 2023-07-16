@@ -1,4 +1,4 @@
-import "./SkillCard.css";
+import "../styles/SkillCard.css";
 
 const SkillCard = ({ icon, name }) => {
   return (

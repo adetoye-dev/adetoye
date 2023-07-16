@@ -1,4 +1,4 @@
-import "./ContactForm.css";
+import "../styles/ContactForm.css";
 import { useForm } from "@formspree/react";
 import ReactModal from "react-modal";
 import { useState, useEffect } from "react";

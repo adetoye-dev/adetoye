@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "../styles/Hero.css";
 import TypeWriterEffect from "react-typewriter-effect";
 import resume from "../assets/My Resume.pdf";
 
