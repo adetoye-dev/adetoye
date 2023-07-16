@@ -30,7 +30,7 @@ const AboutMe = () => {
         <p>
           Feel like we could create something amazing together? Please feel free
           to{" "}
-          <a className="about-cta" href="#contact">
+          <a className="about-cta" href="#contact-me">
             reach out
           </a>{" "}
           for a chat. I look forward to speaking with you! 😁
