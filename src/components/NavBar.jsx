@@ -22,7 +22,7 @@ const NavBar = () => {
       <div className="header">
         <div className="container nav-container">
           <div className="logo">
-            <h2>Adetoye</h2>
+            <h2 className="text-2xl font-bold">Adetoye</h2>
           </div>
           <nav className="nav">
             <ul

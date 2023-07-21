@@ -18,7 +18,7 @@ function App() {
       </section>
       <section className="section my-skills container">
         <div className="section-title">
-          <h1>My Skills</h1>
+          <h1 className="text-3xl font-bold">My Skills</h1>
         </div>
         <div className="skills-icon-container">
           <SkillCard icon="fa-brands fa-react" name="React" />
@@ -34,9 +34,9 @@ function App() {
       </section>
       <section className="section recent-projects container">
         <div className="section-title">
-          <h1>Recent Projects</h1>
+          <h1 className="text-3xl font-bold">Recent Projects</h1>
         </div>
-        <div className="max-w-[912px] mx-auto flex flex-col gap-10">
+        <div className="max-w-[912px] mx-auto flex flex-col gap-10 mt-5">
           {projects.map((project) => {
             return <ProjectCard {...project} />;
           })}
@@ -49,7 +49,7 @@ function App() {
       </section>
       <section className="section contact-me container" id="contact-me">
         <div className="section-title">
-          <h1>Get In Touch</h1>
+          <h1 className="text-3xl font-bold">Get In Touch</h1>
         </div>
         <ContactForm />
       </section>

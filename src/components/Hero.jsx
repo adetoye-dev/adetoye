@@ -8,7 +8,9 @@ const Hero = () => {
       <div className="container hero-container">
         <div className="hero-content-container">
           <div className="hero-content">
-            <h1 className="hero-title">Hi, I'm Adetoye! 👋🏽</h1>
+            <h1 className="hero-title text-3xl font-bold">
+              Hi, I'm Adetoye! 👋🏽
+            </h1>
             <TypeWriterEffect
               textStyle={{
                 fontFamily: "inherit",
