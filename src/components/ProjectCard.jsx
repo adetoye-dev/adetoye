@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
       : "";
 
   return (
-    <div className="w-full border flex flex-col md:flex-row gap-8">
+    <div className="w-full flex flex-col md:flex-row gap-8">
       <div className="w-full md:w-2/5">
         <h2 className="text-2xl font-bold mb-2">{props.title}</h2>
         {renderTags !== "" && <div className="flex gap-2">{renderTags}</div>}
