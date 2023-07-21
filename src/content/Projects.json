@@ -1,59 +1,44 @@
 [
   {
-    "desktopSlides": [
-      "what2wear.png",
-      "what2wear.png",
-      "what2wear.png",
-      "what2wear.png"
-    ],
-    "mobileSlides": [
-      "what2wear.png",
-      "what2wear.png",
-      "what2wear.png",
-      "what2wear.png"
-    ],
     "title": "What2Wear App",
     "desc": "This is a weather app that recommends you what to wear based on the current weather in your location or a location of your choice.",
     "liveSite": "https://what2wear.vercel.app/",
     "github": "https://github.com/adetoye-dev/weathrr-app",
-    "tags": ["react", "node", "express", "mysql"]
-  },
-  {
+    "tags": ["react", "node", "express", "mysql"],
+
     "desktopSlides": [
-      "multi-step-form.jpeg",
-      "multi-step-form.jpeg",
-      "multi-step-form.jpeg",
-      "multi-step-form.jpeg"
+      "what2wear/desktop-1.jpeg",
+      "what2wear/desktop-2.jpeg",
+      "what2wear/desktop-3.jpeg",
+      "what2wear/desktop-4.jpeg"
     ],
     "mobileSlides": [
-      "multi-step-form.jpeg",
-      "multi-step-form.jpeg",
-      "multi-step-form.jpeg",
-      "multi-step-form.jpeg"
-    ],
+      "what2wear/mobile-1.jpeg",
+      "what2wear/mobile-2.jpeg",
+      "what2wear/mobile-3.jpeg",
+      "what2wear/mobile-4.jpeg",
+      "what2wear/mobile-5.jpeg"
+    ]
+  },
+  {
     "title": "Plan Subscription App",
     "desc": "This is a simple service subscription app with email validation using an API and live payment integration",
     "liveSite": "https://plan-subscription.vercel.app/",
     "github": "https://github.com/adetoye-dev/plan-subscription-app",
-    "tags": ["react", "tailwind", "api"]
-  },
-  {
+    "tags": ["react", "tailwind", "api"],
     "desktopSlides": [
-      "country-search-app.jpeg",
-      "country-search-app.jpeg",
-      "country-search-app.jpeg",
-      "country-search-app.jpeg"
+      "planSub/desktop-1.jpeg",
+      "planSub/desktop-2.jpeg",
+      "planSub/desktop-3.jpeg",
+      "planSub/desktop-4.jpeg",
+      "planSub/desktop-5.jpeg"
     ],
     "mobileSlides": [
-      "country-search-app.jpeg",
-      "country-search-app.jpeg",
-      "country-search-app.jpeg",
-      "country-search-app.jpeg"
-    ],
-    "title": "Country Search App",
-    "desc": "A search app where users can search for and learn about the different countries in the world using data from an API.",
-    "liveSite": "https://world-countries-search.vercel.app/",
-    "github": "https://github.com/adetoye-dev/rest-countries-api",
-    "tags": ["react", "css", "api"]
+      "planSub/mobile-1.jpeg",
+      "planSub/mobile-2.jpeg",
+      "planSub/mobile-3.jpeg",
+      "planSub/mobile-4.jpeg",
+      "planSub/mobile-5.jpeg"
+    ]
   }
 ]
