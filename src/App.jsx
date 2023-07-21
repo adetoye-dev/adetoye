@@ -6,6 +6,7 @@ import SkillCard from "./components/SkillCard";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
+import projects from "./content/Projects.json";
 
 function App() {
   return (
@@ -35,55 +36,10 @@ function App() {
         <div className="section-title">
           <h1>Recent Projects</h1>
         </div>
-        <div className="projects-card-container">
-          <ProjectCard
-            img="what2wear.png"
-            title="What2Wear App (Beta Testing)"
-            desc="This is a weather app that recommends you what to wear based on the current weather in your location or a location of your choice."
-            liveSite="https://what2wear.vercel.app/"
-            github="https://github.com/adetoye-dev/weathrr-app"
-            tags={["react", "node", "express", "mysql"]}
-          />
-          <ProjectCard
-            img="multi-step-form.jpeg"
-            title="Plan Subscription App"
-            desc="This is a simple service subscription app with email validation using an API and live payment integration"
-            liveSite="https://plan-subscription.vercel.app/"
-            github="https://github.com/adetoye-dev/plan-subscription-app"
-            tags={["react", "tailwind", "api"]}
-          />
-          <ProjectCard
-            img="country-search-app.jpeg"
-            title="Country Search App"
-            desc="A search app where users can search for and learn about the different countries in the world using data from an API."
-            liveSite="https://world-countries-search.vercel.app/"
-            github="https://github.com/adetoye-dev/rest-countries-api"
-            tags={["react", "css", "api"]}
-          />
-          <ProjectCard
-            img="ip-address-tracker.jpeg"
-            title="Ip Address Tracker"
-            desc="A tracker app that displays user's location on the map with ip address search"
-            liveSite="https://ip-address-tracker-1y6t.vercel.app/"
-            github="https://github.com/adetoye-dev/ip-address-tracker"
-            tags={["react", "css", "api"]}
-          />
-          <ProjectCard
-            img="quizzical.png"
-            title="Quizzical"
-            desc="A Quiz App that fetches and renders quiz questions from an API, and also keeps track of the user's selection for each question and checks if it's correct or not."
-            liveSite="https://quizzical-nqu9.vercel.app/"
-            github="https://github.com/adetoye-dev/quizzical"
-            tags={["react", "css", "api"]}
-          />
-          <ProjectCard
-            img="shortly.jpeg"
-            title="URL Shortener App"
-            desc="A web app that allows users to enter long URLs and converts it to shorter forms using an API"
-            liveSite="https://shortly-umber-one.vercel.app/"
-            github="https://github.com/adetoye-dev/shortly"
-            tags={["html", "css", "javascript", "api"]}
-          />
+        <div className="max-w-[912px] mx-auto flex flex-col gap-10">
+          {projects.map((project) => {
+            return <ProjectCard {...project} />;
+          })}
         </div>
         <div className="view-more">
           <a href="https://github.com/adetoye-dev" className="view-more-btn">
