@@ -1,6 +1,7 @@
 import "../styles/Hero.css";
 import TypeWriterEffect from "react-typewriter-effect";
 import resume from "../assets/My Resume.pdf";
+import pfp from "../assets/pfp.jpg";
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <img className="hero-image" src="img/hero-img.png" alt="" />
+          <img className="hero-image" src={pfp} alt="profile" />
         </div>
       </div>
     </div>

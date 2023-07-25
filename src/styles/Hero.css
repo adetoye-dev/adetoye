@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 520px;
+  min-height: 520px;
   background-color: var(--black);
   color: var(--white);
 }
@@ -10,6 +10,8 @@
   height: 100%;
   display: flex;
   align-items: center;
+  gap: 2rem;
+  flex-direction: column-reverse;
   justify-content: space-between;
 }
 
@@ -17,9 +19,14 @@
   position: relative;
 }
 .hero-image {
-  display: none;
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-block: 1rem;
 }
 .hero-content-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +47,7 @@
 
 .hero-cta-container {
   position: relative;
-  top: 5rem;
+  top: auto;
   width: 100%;
   display: flex;
   gap: var(--gap);
@@ -58,9 +65,19 @@
 }
 
 @media (min-width: 600px) {
+  .hero {
+    height: 520px;
+  }
+  .hero-container {
+    flex-direction: row;
+  }
   .hero-image {
-    display: block;
-    max-width: 90%;
-    clip-path: circle(250px at center);
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    min-width: 380px;
   }
 }
