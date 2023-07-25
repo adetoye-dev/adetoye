@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: min(85%, 1349px);
+  width: min(85%, 1024px);
   margin: 0 auto;
 }
 .section {
