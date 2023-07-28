@@ -1,7 +1,7 @@
 [
   {
     "title": "What2Wear App",
-    "desc": "This is a weather app that recommends you what to wear based on the current weather in your location or a location of your choice.",
+    "desc": "This is a weather app that recommends you what to wear based on the current weather in your location or a location of your choice. The idea behind it was to create an application that can recommend outfits to users based on their location and current weather. So, if you're planning to travel, you can enter your location and get recommendations on what people in that area dress like in different weather conditions. You can also check the forecast for your stay and pack accordingly. It's a simple yet useful concept that personalizes your fashion choices and helps you make informed decisions.",
     "liveSite": "https://what2wear.vercel.app/",
     "github": "https://github.com/adetoye-dev/weathrr-app",
     "tags": ["react", "node", "express", "mysql"],
@@ -22,7 +22,7 @@
   },
   {
     "title": "Plan Subscription App",
-    "desc": "This is a simple service subscription app with email validation using an API and live payment integration",
+    "desc": "This  is a subscription application that features a multi-step form with email validation using an API, payment plan selection and live payment integrations using the PayStack payment API.",
     "liveSite": "https://plan-subscription.vercel.app/",
     "github": "https://github.com/adetoye-dev/plan-subscription-app",
     "tags": ["react", "tailwind", "api"],
