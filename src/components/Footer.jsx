@@ -6,7 +6,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-container">
         <div className="attribution-and-social-links">
-          <p className="footer-text">Copyright &copy; 2023, Adetoye</p>
+          <p className="footer-text">
+            Copyright &copy; {new Date().getFullYear()}, Adetoye
+          </p>
           <div className="social-icons-container">
             <SocialIcon
               icon="fab fa-github"
