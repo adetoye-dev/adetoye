@@ -1,0 +1,50 @@
+[
+  {
+    "platform": "Buy Me a Coffee",
+    "url": "https://buymeacoffee.com/adetoye",
+    "icon": "fas fa-coffee",
+    "catchPhrase": "Buy me a coffee"
+  },
+  {
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/channel/UCunJdcmxy1YqQOTkLKYjxdw",
+    "icon": "fab fa-youtube",
+    "catchPhrase": "Subscribe to my YouTube channel"
+  },
+  {
+    "platform": "Website",
+    "url": "https://adetoye.vercel.app",
+    "icon": "fas fa-globe",
+    "catchPhrase": "Visit my portfolio"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/adetoye-dev",
+    "icon": "fab fa-linkedin",
+    "catchPhrase": "Connect with me on LinkedIn"
+  },
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/adetoye-dev",
+    "icon": "fab fa-github",
+    "catchPhrase": "Follow me on GitHub"
+  },
+  {
+    "platform": "Instagram",
+    "url": "https://instagram.com/theadeadewoye",
+    "icon": "fab fa-instagram",
+    "catchPhrase": "Follow me on Instagram"
+  },
+  {
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@theadeadewoye",
+    "icon": "fab fa-tiktok",
+    "catchPhrase": "Follow me on TikTok"
+  },
+  {
+    "platform": "Twitter",
+    "url": "https://twitter.com/adetoye_dev",
+    "icon": "fab fa-twitter",
+    "catchPhrase": "Follow me on Twitter"
+  }
+]
